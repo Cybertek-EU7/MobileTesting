@@ -141,9 +141,9 @@ public class Day1 {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
-        desiredCapabilities.setCapability(MobileCapabilityType.VERSION,"9.0");
+        desiredCapabilities.setCapability(MobileCapabilityType.VERSION,"10.0");
         //we used real device, i get this UUID number from terminal with typing "adb devices"
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"9887fc474f4f315a43");
+        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"4200a8e3cc1635dd");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
         //to specfiy app for testing
         //it can be on your computer or somewhere in cloud
